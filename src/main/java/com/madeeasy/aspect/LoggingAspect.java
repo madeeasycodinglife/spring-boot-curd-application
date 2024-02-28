@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    @Pointcut(value = "execution(* com.madeeasy.*.*(..))")
+    @Pointcut(value = "execution(* com.madeeasy.*.*.*(..))")
     public void logMessage() {
 
     }
