@@ -74,6 +74,18 @@ This project is a Spring Boot REST API for managing student information.
 - **URL:** `/student-service/delete/{id}`
 - **Method:** `DELETE`
 
+## Database Configuration and Swagger Documentation
+
+### Database Configuration
+
+The application uses an in-memory H2 database for persistence. The database schema is automatically created and dropped at application startup and shutdown. You can access the H2 console for database management at `/h2-console`.
+
+### Swagger Documentation
+
+The application includes Swagger for API documentation. You can access the Swagger UI at:
+
+- **Swagger UI URL:** `http://localhost:8080/swagger-ui.html`
+
 ## Example Usage
 
 - Get all students: `GET http://localhost:8080/student-service/get-all-students`
