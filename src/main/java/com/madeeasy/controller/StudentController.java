@@ -63,7 +63,7 @@ public class StudentController {
             summary = "Partial update student",
             description = "Partial update student"
     )
-    @PatchMapping(path = "/patch/{id}")
+    @PatchMapping(path = "/partial-update/{id}")
     public ResponseEntity<?> partialUpdate(StudentPartiallyUpdateRequest studentUpdateRequest,
                                            @PathVariable("id") Long id) {
         return studentService.partialUpdate(studentUpdateRequest, id);
