@@ -1,6 +1,6 @@
 
 server:
-  port: 2024
+  port: 8080
 
 spring:
   application:
